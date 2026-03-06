@@ -1,0 +1,21 @@
+ai_model: codellama:7b
+ollama_url: http://localhost:11434
+threshold: 60
+enable_ai: true
+enable_patterns: true
+enable_static_analysis: true
+
+languages:
+  - python
+  - javascript
+  - php
+  - bash
+  - ruby
+  - java
+  - c
+  - cpp
+
+server:
+  host: 0.0.0.0
+  port: 5000
+  debug: false
